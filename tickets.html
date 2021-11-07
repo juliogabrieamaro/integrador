@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Trabajo Integrador CAC JAVA</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="stylo.css">
+</head>
+
+<body style="background-color: lightgrey;">
+
+    <div class="container-fluid">
+
+        <!-- Nav tabs -->
+
+
+
+        <nav style="background-color:rgb(46, 85, 87);">
+
+            <div id="imagen">
+                <a href="bootstrap.html"><img src="images\codoacodo.png" class="img-fluid" alt="Logo"></a>
+            </div>
+            
+            <a href="#" id="tickets">Comprar Tickets</a>
+            <a href="#">Conviertete En Orador</a>
+            <a href="#">El Lugar y La fecha</a>
+            <a href="#">Los oradores</a>
+            <a href="#">La conferencia</a>
+
+        </nav>
+
+    </div>
+
+<br>
+    
+        <div class="container-fluid ">
+
+            <div class="mx-auto my-auto row " >
+
+
+                <div class="col-sm-4 text-center py-3" style="width: 600px; height: 150px; border: 2px solid blue;margin: auto;">
+                    
+                    <h4>
+                        Estudiante
+                    </h4>
+                    
+                    <p style="font-size: 18px;">Tienen un Descuento</p>
+                    
+                    <b style="font-size: 20px;">
+                        80%
+                    </b>
+                    <p>Presentar documentación</p>
+
+                </div>
+
+
+
+                <div class="col-sm-4 text-center py-3" style="width: 600px; height: 150px; border: 2px solid gray; margin: auto;">
+                    <h4>
+                        Trainee
+                    </h4>
+                    <p style="font-size: 18px;">Tienen un Descuento</p>
+                    <b style="font-size: 20px;">
+                        50%
+                    </b>
+                    <p>Presentar documentación</p>
+                </div>
+
+                <div class="col-sm-4 text-center py-3" style="width: 600px; height: 150px; border: 2px solid yellow; margin: auto;">
+                    <h4>
+                        Junior
+                    </h4>
+                    <p style="font-size: 18px;">Tienen un Descuento</p>
+                    <b style="font-size: 20px;">
+                        15%
+                    </b>
+                    <p>Presentar documentación</p>
+                </div>
+
+                <div class="mx-auto row" style="width: 500px; height: auto;  ">
+                    <div class="jumbotron text-dark text-center">
+                           <br>
+                        <p>VENTA</p>
+                        <h1 class="text-uppercase">VALOR DE TICKETS 200$</h1>
+                    </div>
+                </div>
+
+
+
+               
+                    <form class="mx-auto my-auto row" style="width: 650px;  ">
+                        <div class="form-row">
+                            <div class="mb-3 row">
+            
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" id="nom" placeholder="Nombre">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" id="ape" placeholder="Apellido">
+                                </div>
+            
+            
+                            </div>
+                            <div class="mb-3 row" style="margin-top: 20px;">
+            
+                                <div class="col-sm-12">
+            
+                                    <input type="text" class="form-control" id="corr" aria-label="Email" placeholder="Correo"
+                                        aria-describedby="basic-addon1">
+                                </div>
+            
+                            </div>
+            
+                            <div class="mb-4 row">
+                                <div class="col-sm-6">
+                                    <label for="cantidad1">Cantidad</label>
+                                    <input type="text" class="form-control" id="cantidad1" style="margin-top: 10px;"
+                                        placeholder="Cantidad">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="inputState" class="form-label">Categoria</label>
+                                    <select id="inputState" class="form-select">
+                                        <option selected>Elegir Categoria</option>
+                                        <option>Estudiante</option>
+                                        <option>Trainee</option>
+                                        <option>Junior</option>
+                                    </select>
+                                </div>
+                           
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <div id="totalCompra" class="alert alert-primary" role="alert">
+                                    Total a pagar $
+                                </div>
+            
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-row" id="botones">
+                            <div class="mb-3 row">
+                                <div class="col-sm-6">
+                                    <button type="button" class="btn btn-codo  btn-lg" id="botonBorrar"
+                                        style="width: 100%; color: white;">Borrar</button>
+            
+                                </div>
+                                <div class="col-sm-6">
+                                    <button type="button" class="btn btn-codo  btn-lg" id="botonCalcular"
+                                        style="width: 100%; color: white;">Resumen</button>
+            
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+            
+                    </form>
+            
+                </div>
+            
+                <div class="container-fluid">
+
+
+                    <footer id="footer" class="pb-4 pt-4">
+            
+                        <div>
+                            <a href="#">Conferencias</a>
+                            <a href="#">Prensa</a>
+                            <a href="#">Contactanos</a>
+                            <a href="#">Privacidad</a>
+                            <a href="#">Estudiantes</a>
+                            <a href="#">Preguntas Frecuentes</a>
+                            <a href="#">Terminos y Condiciones</a>
+                        </div>
+            
+                    </footer>
+            
+                </div>
+            
+
+            </div>
+            
+        </div>
+
+   
+   
+    
+
+    <BR></BR>
+
+   
+    
+    </div>
+
+
+
+    
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="calcular.js"></script>
+</body>
+
+</html>
